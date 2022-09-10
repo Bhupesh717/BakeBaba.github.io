@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>footer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <style>
+        /* about us */
+        
+        .service-section .col-md-10 {
+            float: none;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            position: relative;
+            max-width: 640px;
+        }
+        
+        .section-title .subtitle {
+            display: inline-flex;
+            color: #ff90ae;
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .section-title .title {
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 1.1;
+            position: relative;
+        }
+        
+        .section-title .primary-color {
+            color: #ff90ae;
+        }
+        
+        .sigma_about-content p {
+            font-size: 16px;
+            line-height: 1.8;
+            font-family: "Rubik", sans-serif;
+            color: #686a6f;
+        }
+        
+        .sigma_media-content p {
+            font-size: 14px;
+            line-height: 1.5;
+            font-family: "Rubik", sans-serif;
+            color: #686a6f;
+        }
+        
+        .sigma_media {
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+        }
+        
+        .sigma_about.style-10 .sigma_media,
+        .sigma_about.style-18 .sigma_media {
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 16px 0 30px;
+        }
+        
+        .sigma_about.style-10 .sigma_media span {
+            display: inline-block;
+            font-size: 36px;
+            font-weight: 600;
+            color: #ff90ae;
+        }
+        
+        .sigma_about.style-10 .sigma_media-content,
+        .sigma_about.style-18 .sigma_media-content {
+            margin-left: 0;
+        }
+        
+        .sigma_media-content h5 {
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .service-section .col-md-6 {
+            width: 50%;
+        }
+    </style>
+
+    <style>
+        /* service */
+        
+        .service-section {
+            background-image: url("https://premiumlayers.com/html/riga/images/service-bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding: 150px 0;
+            margin-bottom: 150px;
+        }
+        
+        .service-section .section-header {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        
+        .service-section .section-header h3 {
+            color: #fff;
+            font-family: 'montserratsemi_bold';
+            font-size: 24px;
+            letter-spacing: 0.96px;
+            line-height: 24px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 500;
+            text-align: center;
+        }
+        
+        .service-section .section-header h5 {
+            color: #a04699;
+            font-family: 'Pacifico', cursive;
+            font-size: 24px;
+            line-height: 24px;
+            margin-bottom: 30px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .service-section .service-box {
+            background-color: #fff;
+            display: inline-flex;
+            padding-left: 75px;
+            padding-top: 65px;
+            padding-bottom: 40px;
+            padding-right: 75px;
+            flex-direction: row;
+            /* width: 100%; */
+        }
+        
+        .service-section .service-content {
+            position: relative;
+            padding-left: 90px;
+            padding-right: 15px;
+            margin-bottom: 35px;
+        }
+        
+        .service-section .service-content i {
+            display: inline-block;
+            position: absolute;
+            left: 0;
+        }
+        
+        .service-section .service-content h3 {
+            color: #a04699;
+            font-family: 'montserratsemi_bold';
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 0;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        
+        .service-section .service-content p {
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 0;
+            line-height: 24px;
+        }
+        
+        @media (min-width: 992px) {
+            .service-section .col-md-6 {
+                width: 50%;
+            }
+        }
+        
+        @media screen and (max-width:700px) {
+            .service-section {
+                padding: 100px 25px;
+            }
+            .service-section .service-box {
+                padding: 60px 25px;
+            }
+            .service-section .col-md-6 {
+                width: 100%;
+            }
+            .service-section .service-content {
+                padding-right: 0;
+            }
+        }
+    </style>
+
+    <style>
+    .promo-classic {
+            text-align: center;
+            border: 10px solid #f3f7f8;
+            padding: 30px 15px 90px;
+            background-image: url("https://ld-wt73.template-help.com/wt_prod-23024/images/promo-1-1149x474.jpg");
+            background-position: 50% 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .promo-classic-title {
+            letter-spacing: .05em;
+            text-transform: none;
+            font-family: "Great Vibes", cursive;
+            color: #c14679;
+            font-size: 32px;
+        }
+        
+        .big {
+            font-size: 16px;
+            line-height: 1.66667;
+            letter-spacing: .05em;
+        }
+        
+        .promo-classic-title+.promo-classic-text {
+            margin-top: 16px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        
+        .promo-classic .button {
+            border-radius: 50%;
+            min-width: 50px;
+            border: 1px solid #c14679;
+            color: #ffffff;
+        }
+        
+        .promo-classic .button::after {
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 50%;
+            width: 110%;
+            padding-bottom: 110%;
+            border-radius: 50%;
+            transform: translate3d(-50%, -50%, 0) scale(1);
+            transition: inherit;
+            pointer-events: none;
+            z-index: -1;
+            background: #c14679;
+        }
+        
+        @media (min-width: 1200px) {
+            .offset-negative-1 {
+                transform: translateY(-50px);
+                font-size: 32px;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .promo-classic {
+                padding-top: 75px;
+                padding-bottom: 185px;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        .promo-classic {
+            padding: 40px 30px 120px;
+            padding-top: 40px;
+            padding-bottom: 120px;
+        }
+        
+        .big {
+            font-size: 18px;
+        }
+    }
+    </style>
+
+    <style>
+        /* counting */
+        
+        .counting {
+            width: 100%;
+            padding: 2rem 5%;
+            margin: 1rem 0;
+            min-height: 15rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: 3rem;
+            background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://sopia-bakeshop.astemplatedesigns.com/assets/images/Counter/Counter.png");
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://sopia-bakeshop.astemplatedesigns.com/assets/images/Counter/Counter.png");
+            background-position-x: 0%, 0%;
+            background-position-y: 0%, 0%;
+            background-attachment: scroll, scroll;
+            background-size: auto, auto;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .counting .box {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 25rem;
+            flex: 1 1 22rem;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .counting .box i {
+            color: #fff;
+            font-size: 55px;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .counting .box .count {
+            color: #fff;
+            font-size: 30px;
+            padding-bottom: 0.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .counting .box h3 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        html {
+            font-size: 62.6%;
+        }
+    </style>
+
+    <style>
+        body {
+            margin: 100px 0;
+        }
+        
+        .foot_slider {
+            padding: 100px 0;
+            background: url("https://ld-wt73.template-help.com/wt_prod-23024/images/bg-img-2.jpg") no-repeat center;
+            background-size: auto;
+            background-size: cover;
+        }
+        
+        .foot_slider .item img {
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+            transition: all .25s ease;
+            height: 92px;
+            width: 122px;
+        }
+        
+        .foot_slider .item {
+            text-align: center;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+        /* new section */
+        
+        .section-inset-1 {
+            padding: 120px 0;
+            background-size: cover;
+            background-position: center center;
+            text-align: center;
+            font-size: 15px;
+            line-height: 1.6;
+            font-weight: 400;
+            letter-spacing: .05em;
+            font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #777777;
+            -webkit-text-size-adjust: none;
+        }
+        
+        .section-inset-1 h3 {
+            font-family: "Great Vibes", cursive;
+            color: #c14679 !important;
+            font-size: 36px;
+        }
+        
+        .section-inset-1 h2 {
+            color: #151515;
+            letter-spacing: .075em;
+            font-size: 55px;
+            line-height: 1.18182;
+            margin-bottom: 0;
+            font-weight: 600;
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin-top: 18px;
+            text-transform: uppercase;
+        }
+        
+        .button {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            padding: 4px 17px;
+            font-size: 14px;
+            line-height: 2;
+            border: 2px solid;
+            border-radius: 6px;
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            text-align: center;
+            cursor: pointer;
+            vertical-align: middle;
+            user-select: none;
+            transition: all 250ms ease-in-out;
+        }
+        
+        .button-zakaria {
+            margin-top: 40px;
+            padding: 19px 50px;
+            font-size: 14px;
+            line-height: 2;
+            transition: all .3s ease-in-out;
+            z-index: 1;
+            color: #ffffff;
+            background-color: #c14679;
+            border-color: #c14679;
+        }
+        
+        .button-zakaria:hover::after,
+        .button-zakaria:active::after {
+            transform: translate3d(-50%, -50%, 0) scale(0);
+        }
+        
+        .button-primary.button-zakaria::after {
+            background: #c14679;
+        }
+        
+        .button-zakaria::after {
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 50%;
+            width: 110%;
+            padding-bottom: 110%;
+            border-radius: 50%;
+            transform: translate3d(-50%, -50%, 0) scale(1);
+            transition: inherit;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .button-primary:hover,
+        .button-primary:active {
+            color: #ffffff;
+            background-color: #a43664;
+            border-color: #a43664;
+        }
+    </style>
+
+    <style>
+        /* gallery */
+        
+        .container22 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 20px 20px;
+            grid-auto-flow: row;
+            grid-template-areas: "one two three four" "five two six six" "seven seven six six";
+        }
+        
+        .one {
+            grid-area: one;
+        }
+        
+        .two {
+            grid-area: two;
+        }
+        
+        .three {
+            grid-area: three;
+        }
+        
+        .four {
+            grid-area: four;
+        }
+        
+        .five {
+            grid-area: five;
+        }
+        
+        .six {
+            grid-area: six;
+        }
+        
+        .seven {
+            grid-area: seven;
+        }
+        
+        .container22 img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container22 .card {
+            transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        
+        .container22 .card:hover {
+            transform: scale(1.035, 1.035);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+
+    <style>
+        /* team */
+        
+        #team {
+            padding: 2rem 5%;
+        }
+        
+        #team .heading {
+            font-family: 'Dancing Script', cursive;
+            font-size: 5rem;
+            text-align: center;
+            margin: 0rem auto;
+            margin-bottom: 0rem;
+            margin-bottom: 2rem;
+            text-transform: capitalize;
+        }
+        
+        .heading span {
+            font-family: 'Dancing Script', cursive;
+            color: #f52958;
+        }
+        
+        .team .box-container {
+            display: -ms-grid;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+            gap: 1rem;
+        }
+        
+        .team-item {
+            -webkit-box-shadow: 2px 1px 8px -3px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 1px 8px -3px rgba(0, 0, 0, 0.2);
+            border: 0.1rem solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .team-item .image {
+            height: 35rem;
+            overflow: hidden;
+            position: relative;
+            border-bottom: 0.4rem solid #ffaebc;
+        }
+        
+        .team-item .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .team-item .icon-container {
+            position: absolute;
+            top: -100%;
+            left: 0;
+            right: 0;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            transition: all 0.2s linear;
+        }
+        
+        .team-item .icon-container a {
+            font-size: 1.5rem;
+            background: #f52958;
+            color: #fff;
+            padding: 1rem;
+            margin: 0.5rem;
+        }
+        
+        .team-item .content {
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        
+        .team-item .content h2 {
+            color: #f52958;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        
+        .team-item .content p {
+            color: #000;
+            font-size: 1.4rem;
+            font-weight: 500;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .team-item .image:hover img {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        
+        .team-item:hover .icon-container {
+            top: 0%;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <!-- ========== about-us start ========== -->
+    <div class="section pt-0 section_about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="sigma_about">
+                        <img class="img-fluid" src="https://sweetest.hifive03.com/assets/img/about/about.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sigma_about style-10 pl-lg-4">
+                        <div class="section-title">
+                            <span class="subtitle">About us</span>
+                            <h3 class="title"> Welcome to Bake-Baba <br> Come And , <span class="primary-color">Visit Us</span>
+                            </h3>
+                        </div>
+                        <div class="sigma_about-content">
+                            <p class="m-0">We use organic milk, free-range eggs and fresh fruit to . Produce small batches of dairy ice cream, vegan ice cream and vegan .We use organic milk, free-range eggs and fresh fruit to , kimet asit Produce small batches of dairy
+                                ice cream, vegan ice cream and vegan .Lorem ipsum dolor sit amet.We use organic milk, free-range eggs and fresh fruit to </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="sigma_media">
+                                    <span> <b class="counter" data-from="0" data-to="24">24</b> <span>+</span>
+                                    </span>
+                                    <div class="sigma_media-content">
+                                        <h5>Satisfaction</h5>
+                                        <p>We use organic milk, free-range eggs and fresh fruit to , kimet asit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="sigma_media">
+                                    <span> <b class="counter" data-from="0" data-to="98">98</b> <span>%</span>
+                                    </span>
+                                    <div class="sigma_media-content">
+                                        <h5>Experience</h5>
+                                        <p>We use organic milk, free-range eggs and fresh fruit to , kimet asit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="about-us.html" class="sigma_btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== about-us end ========== -->
+
+    <!-- ====service start ======= -->
+    <div class="service-section container-fluid">
+        <!-- Container -->
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <h3>our best services</h3>
+                <h5>Our pricing amount based on our products</h5>
+                <img src="https://premiumlayers.com/html/riga/images/header-seprator-1.png" alt="seprator">
+            </div>
+            <!-- Section Header /- -->
+
+            <div class="col-md-10 m-auto">
+                <div class="row service-box">
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="service-content">
+                            <i><img src="https://premiumlayers.com/html/riga/images/srv-ic-1.png" alt="srv-ic"></i>
+                            <h3>On time Serving</h3>
+                            <p>Travelled down the road and back again. Your heart is true you're a pal and a confidant.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="service-content">
+                            <i><img src="https://premiumlayers.com/html/riga/images/srv-ic-2.png" alt="srv-ic"></i>
+                            <h3>Choice of Many</h3>
+                            <p>Travelled down the road and back again. Your heart is true you're a pal and a confidant.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="service-content">
+                            <i><img src="https://premiumlayers.com/html/riga/images/srv-ic-3.png" alt="srv-ic"></i>
+                            <h3>World Class Chef</h3>
+                            <p>Travelled down the road and back again. Your heart is true you're a pal and a confidant.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="service-content">
+                            <i><img src="https://premiumlayers.com/html/riga/images/srv-ic-4.png" alt="srv-ic"></i>
+                            <h3>satisfied customers</h3>
+                            <p>Travelled down the road and back again. Your heart is true you're a pal and a confidant.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="service-content">
+                            <i><img src="https://premiumlayers.com/html/riga/images/srv-ic-5.png" alt="srv-ic"></i>
+                            <h3>event order</h3>
+                            <p>Travelled down the road and back again. Your heart is true you're a pal and a confidant.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="service-content">
+                            <i><img src="https://premiumlayers.com/html/riga/images/srv-ic-6.png" alt="srv-ic"></i>
+                            <h3>fast delivery</h3>
+                            <p>Travelled down the road and back again. Your heart is true you're a pal and a confidant.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Container /- -->
+    </div>
+    <!-- ====service end ======= -->
+
+    <!-- ====== promo area start ======  -->
+    <section class="section section-sm bg-default pt-xl-0">
+        <div class="container">
+            <article class="promo-classic offset-negative-1">
+                <div class="promo-classic-title">Only Fresh Cakes</div>
+                <p class="big promo-classic-text">All of our products are made from scratch using family recipes with only the highest quality ingredients. We bake and sell fresh daily to ensure only the best products are sold to our customers.</p><a class="button button-sm button-icon-3 button-primary "
+                    href="gallery.html"><i class="far fa-arrow-right mdi mdi-arrow-right"></i></a>
+            </article>
+        </div>
+    </section>
+    <!-- ====== promo area end ====== -->
+
+    <!-- ==== Counting ======= -->
+    <div class="counting">
+
+        <div class="box">
+            <i class="fas fa-shopping-basket"></i>
+            <div class="info">
+                <h1 class="count" data-count="100">100+</h1>
+                <h3>products</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-smile"></i>
+            <div class="info">
+                <h1 class="count" data-count="500">500+</h1>
+                <h3>satisfied customers</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-award"></i>
+            <div class="info">
+                <h1 class="count" data-count="10">10+</h1>
+                <h3>awards won</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <div class="info">
+                <h1 class="count" data-count="20">20+</h1>
+                <h3>staff</h3>
+            </div>
+        </div>
+
+    </div>
+    <!-- ==== Counting end ======= -->
+
+
+    <!-- ======footer slider start ======= -->
+    <section class="foot_slider">
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="https://ld-wt73.template-help.com/wt_prod-23024/images/clients-1-120x112.png" alt="" width="120" height="112">
+                </div>
+                <div class="item">
+                    <img src="https://ld-wt73.template-help.com/wt_prod-23024/images/clients-2-105x118.png" alt="" width="120" height="112">
+                </div>
+                <div class="item">
+                    <img src="https://ld-wt73.template-help.com/wt_prod-23024/images/clients-3-111x98.png" alt="" width="120" height="112">
+                </div>
+                <div class="item">
+                    <img src="https://ld-wt73.template-help.com/wt_prod-23024/images/clients-4-122x92.png" alt="" width="120" height="112">
+                </div>
+                <div class="item">
+                    <img src="https://ld-wt73.template-help.com/wt_prod-23024/images/clients-5-111x111.png" alt="" width="120" height="112">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======footer slider end ======= -->
+
+    <!-- new section start ==== -->
+    <section class="section section-xxl section-inset-1 bg-image my-5" style="background-image: url(https://ld-wt73.template-help.com/wt_prod-23024/images/bg-cta-1.jpg);">
+        <div class="container box-cta">
+            <h3 data-aos="slide-down" class="font-weight-normal text-transform-none wow fadeInDown text-decorative text-primary text-spacing-75" style="visibility: visible; animation-name: fadeInDown;">Unique Flavors and Fresh Ingredients</h3>
+            <h2 class="text-spacing-75 text-black-800 wow fadeScale" style="visibility: visible; animation-name: fadeScale;">All Kinds of Cakes</h2><a data-aos="fade-up" class="button button-lg button-primary button-zakaria wow fadeInUp" href="#" style="visibility: visible; animation-name: fadeInUp;">Call Now</a>
+        </div>
+    </section>
+    <!-- new section end ==== -->
+
+
+
+
+    <!-- ===== Masonry Gallery ======= -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="container22">
+                    <div class="one card"><img src="https://sopia-bakeshop.astemplatedesigns.com/assets/images/Gallery/Bread/Brioche.png" alt=""></div>
+                    <div class="two card"><img src="https://livedemo00.template-help.com/wt_prod-24533/images/masonry-gallery-2-270x530.jpg" alt=""></div>
+                    <div class="three card"><img src="https://livedemo00.template-help.com/wt_prod-24533/images/masonry-gallery-3-270x250.jpg" alt=""></div>
+                    <div class="four card"><img src="https://livedemo00.template-help.com/wt_prod-24533/images/masonry-gallery-4-270x250.jpg" alt=""></div>
+                    <div class="five card"><img src="https://sopia-bakeshop.astemplatedesigns.com/assets/images/Gallery/Pastry/Macaron.png" alt=""></div>
+                    <div class="six card"><img src="https://livedemo00.template-help.com/wt_prod-24533/images/masonry-gallery-6-570x530.jpg" alt=""></div>
+                    <div class="seven card"><img src="https://livedemo00.template-help.com/wt_prod-24533/images/masonry-gallery-7-570x250.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- team start -->
+    <section class="team" id="team">
+
+        <h1 class="heading">our <span>bakers</span></h1>
+
+        <div class="box-container">
+
+            <div class="team-item">
+                <div class="image">
+                    <img src="https://sopia-bakeshop.astemplatedesigns.com/assets/images/Team/Team-1.png" alt="">
+                    <div class="icon-container">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h2>akash chopra</h2>
+                    <p>baker</p>
+                </div>
+            </div>
+
+            <div class="team-item">
+                <div class="image">
+                    <img src="https://sopia-bakeshop.astemplatedesigns.com/assets/images/Team/Team-2.png" alt="">
+                    <div class="icon-container">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h2>james johnson</h2>
+                    <p>baker</p>
+                </div>
+            </div>
+
+            <div class="team-item">
+                <div class="image">
+                    <img src="https://sopia-bakeshop.astemplatedesigns.com/assets/images/Team/Team-3.png" alt="">
+                    <div class="icon-container">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h2>Paul Roger</h2>
+                    <p>baker</p>
+                </div>
+            </div>
+
+            <div class="team-item">
+                <div class="image">
+                    <img src="https://sopia-bakeshop.astemplatedesigns.com/assets/images/Team/Team-4.png" alt="">
+                    <div class="icon-container">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h2>david smith</h2>
+                    <p>baker</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- team end -->
+
+
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: false,
+            // autoplay: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+
+
+    <!-- ===new section script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000,
+        });
+    </script>
+
+    <!-- <a href="https://www.templatemonsterpreview.com/demo/89662.html?_gl=1*ykk22i*_ga*NTU5Nzc2MjE2LjE2NjA5NzA5OTg.*_ga_FTPYEGT5LY*MTY2MTQ5OTA0Ni42LjEuMTY2MTQ5OTM3Mi40MS4wLjA.&_ga=2.268531891.337509292.1661405100-559776216.1660970998"></a> -->
+    <!-- <a href="https://www.templatemonsterpreview.com/demo/268892.html?_gl=1*18b3qpm*_ga*NTU5Nzc2MjE2LjE2NjA5NzA5OTg.*_ga_FTPYEGT5LY*MTY2MTQ5OTA0Ni42LjEuMTY2MTQ5OTIzMS40OC4wLjA.&_ga=2.222910809.337509292.1661405100-559776216.1660970998"></a> -->
+</body>
+
+</html>
